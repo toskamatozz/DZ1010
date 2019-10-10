@@ -1,0 +1,42 @@
+  body {
+    background-color: honeydew;
+    font-family: tahoma;
+    font-weight: bold;
+    color: royalblue;
+  }
+  .BeerButton {
+    position: relative;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 25px auto;
+    cursor: pointer;
+  }
+  .BeerButton svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .BeerButton svg rect {
+    stroke: royalblue;
+    stroke-width: 10;
+    transition: 0.5s;
+    stroke-dasharray: 560, 280;
+  }
+  .BeerButton:hover svg rect {
+    stroke-width: 10;
+    stroke-dasharray: 80, 200;
+    stroke-dashoffset: 40;
+  }
+  .HexaBeer {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    margin: 0 auto;
+  }
+  .HexaBeer svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
